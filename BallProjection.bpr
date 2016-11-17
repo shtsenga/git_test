@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="BallProjection.exe"/>
+    <OBJFILES value="BallProjection.obj MainUnit.obj FrameDataUnit.obj ModelSim.obj 
+      C:\MyLibrary\avi_utils.obj StringParseFun.obj avi_utils.obj 
+      GeometryFun.obj IOFun.obj Matrix.obj"/>
+    <RESFILES value="BallProjection.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainUnit.dfm ModelSim.dfm"/>
+    <LIBFILES value="C:\MyLibrary\MyLibrary.lib"/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi ibxpress.bpi 
+      dsnap.bpi cds.bpi bdecds.bpi bdertl.bpi qrpt.bpi teeui.bpi teedb.bpi 
+      tee.bpi vcldbx.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi nmfast.bpi webdsnap.bpi bcbie.bpi 
+      websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi indy.bpi 
+      bcb2kaxserver.bpi VclSmp.bpi inetdb.bpi"/>
+    <PATHCPP value=".;C:\MyLibrary"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="_RTLDLL;NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="BallProjection.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;&quot;D:\DAQ Develop\DAQ for NI Ver 1.5.5\DAQ Code 1.5.5&quot;;&quot;D:\BCB Code\BallProjection&quot;;$(BCB)\include;$(BCB)\include\vcl;$(MyLibrary)"/>
+    <LIBPATH value="C:\MyLibrary;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;&quot;D:\DAQ Develop\DAQ for NI Ver 1.5.5\DAQ Code 1.5.5&quot;;&quot;D:\BCB Code\BallProjection&quot;;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; 
+      -I&quot;D:\DAQ Develop\DAQ for NI Ver 1.5.5\DAQ Code 1.5.5&quot; 
+      -I&quot;D:\BCB Code\BallProjection&quot; -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I$(MyLibrary) -src_suffix cpp -boa"/>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) Memmgr.Lib sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mti.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="BallProjection.res" FORMNAME="" UNITNAME="BallProjection.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BallProjection.cpp" FORMNAME="" UNITNAME="BallProjection" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainUnit.cpp" FORMNAME="MainForm" UNITNAME="MainUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="C:\MyLibrary\MyLibrary.lib" FORMNAME="" UNITNAME="MyLibrary.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="FrameDataUnit.cpp" FORMNAME="" UNITNAME="FrameDataUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ModelSim.cpp" FORMNAME="SimForm" UNITNAME="ModelSim" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="C:\MyLibrary\avi_utils.cpp" FORMNAME="" UNITNAME="avi_utils" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="StringParseFun.cpp" FORMNAME="" UNITNAME="StringParseFun.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="avi_utils.cpp" FORMNAME="" UNITNAME="avi_utils.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GeometryFun.cpp" FORMNAME="" UNITNAME="GeometryFun.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="IOFun.cpp" FORMNAME="" UNITNAME="IOFun.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Matrix.cpp" FORMNAME="" UNITNAME="Matrix.cpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1028
+CodePage=950
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=C:\Program Files\Borland\CBuilder6\Projects;D:\DAQ Develop\DAQ for NI Ver 1.5.5\DAQ Code 1.5.5;D:\BCB Code\BallProjection;$(BCB)\include;$(BCB)\include\vcl;$(MyLibrary)
+Item1=D:\DAQ Develop\DAQ for NI Ver 1.5.5\DAQ Code 1.5.5;D:\BCB Code\BallProjection;$(BCB)\include;$(BCB)\include\vcl;$(MyLibrary)
+Item2=$(BCB)\include;$(BCB)\include\vcl;$(MyLibrary)
+Item3=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=C:\MyLibrary;C:\Program Files\Borland\CBuilder6\Projects;D:\DAQ Develop\DAQ for NI Ver 1.5.5\DAQ Code 1.5.5;D:\BCB Code\BallProjection;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item1=D:\DAQ Develop\DAQ for NI Ver 1.5.5\DAQ Code 1.5.5;D:\BCB Code\BallProjection;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+Item2=$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
